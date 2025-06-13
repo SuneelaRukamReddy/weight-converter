@@ -1,0 +1,72 @@
+ @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.main-continer{
+   background: linear-gradient(
+    to left top, rgb(240, 247, 26), rgb(153, 223, 240),  hsl(56, 92%, 52%)
+  );
+    font-family: "Lucida Console", Courier, monospace; 
+    font-family: math;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-style: normal;
+    font-weight: bold;
+}
+.card{
+    border-radius:8px;
+    color:#1fa1ad; 
+    background-color:rgb(222, 222, 222);
+    padding: 10px;
+    width: 36vw;
+    height: 20vw;
+}
+.inputBox{
+    border-width: 1px;
+    border-color:gray;
+    border-style:solid;
+    border-radius: 4px;
+}  
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.main-container {
+  background: linear-gradient(to left top, rgb(240, 247, 26), rgb(153, 223, 240), hsl(56, 92%, 52%));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 1rem;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 400px;
+  text-align: left;
+}
+
+.inputBox {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+}
+
+@media screen and (max-width: 480px) {
+  .card {
+    padding: 1rem;
+  }
+  .inputBox {
+    width: 100%;
+  }
+}  
+ 
